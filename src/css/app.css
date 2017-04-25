@@ -1,8 +1,10 @@
 @import "settings/settings.index.css";
 
-@import "helpers/helpers.index.css";
+@import "tools/tools.index.css";
 
-@import "generic/generic.index.css";
+@import "utilities/utilities.index.css";
+
+@import "base/base.index.css";
 
 @import "objects/objects.index.css";
 
