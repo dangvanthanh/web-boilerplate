@@ -1,0 +1,15 @@
+{
+  "name": "web-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "postcss src/css/app.css -o dist/css/app.css -w"
+  },
+  "repository": "https://github.com/dangvanthanh/web-boilerplate.git",
+  "author": "Dang Van Thanh <dangvanthanh@dangthanh.org>",
+  "license": "MIT",
+  "devDependencies": {
+    "postcss-cli": "^3.2.0",
+    "postcss-import": "^9.1.0"
+  }
+}
