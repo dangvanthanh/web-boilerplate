@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build:css": "postcss src/css/app.css -o dist/css/app.css -w"
+    "watch:css": "postcss src/css/app.css -o dist/css/app.css -w",
+    "build:css": "postcss src/css/app.css -o dist/css/app.css"
   },
   "repository": "https://github.com/dangvanthanh/web-boilerplate.git",
   "author": "Dang Van Thanh <dangvanthanh@dangthanh.org>",
