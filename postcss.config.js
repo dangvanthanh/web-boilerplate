@@ -1,5 +1,8 @@
 module.exports = {
   plugins: [
-    require('postcss-import')
+    require('postcss-import'),
+    require('postcss-nested'),
+    require('cssnano'),
+    require('postcss-cssnext')
   ]
 }
