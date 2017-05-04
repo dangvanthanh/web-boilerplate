@@ -1,7 +1,7 @@
-import { isLargeButton } from './utils'
+import { log, isSite } from './utils'
 
-if (isLargeButton) {
-  console.log('true')
+if (isSite) {
+  log('true')
 } else {
-  console.log('false')
+  log('false')
 }

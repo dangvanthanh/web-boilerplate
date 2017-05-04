@@ -1,13 +1,36 @@
+@import "tachyons";
+
+/**
+ * Settings
+ */
 @import "settings/settings.index.css";
 
+/**
+ * Tools
+ */
 @import "tools/tools.index.css";
 
+/**
+ * Utilities
+ */
 @import "utilities/utilities.index.css";
 
+/**
+ * Base
+ */
 @import "base/base.index.css";
 
+/**
+ * Object
+ */
 @import "objects/objects.index.css";
 
+/**
+ * Components
+ */
 @import "components/components.index.css";
 
+/**
+ * Trumps
+ */
 @import "trumps/trumps.index.css";
